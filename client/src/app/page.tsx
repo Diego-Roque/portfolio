@@ -11,7 +11,7 @@ export default function Home() {
   return (
       <>
           <Head>
-              <title>Diego Roque Portafolio</title>
+              <title>Portafolio Diego Roque </title>
           </Head>
     <div className="bg-black">
 
