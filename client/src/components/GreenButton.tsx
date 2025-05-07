@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 function GreenButton() {
     return (
         <Link
-            to="About"
+            to='About'
             smooth={true}
             duration={100}
             offset={-70}

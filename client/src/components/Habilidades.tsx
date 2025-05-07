@@ -3,7 +3,7 @@ import {Code2, Database, FileText} from "lucide-react";
 
 function Habilidades() {
     return (
-        <div id="Habilidades" className="w-full text-white py-16 px-4  flex flex-col items-center justify-center text-center">
+        <div id='Habilidades' className="w-full text-white py-16 px-4  flex flex-col items-center justify-center text-center">
             <div>
                 <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">HABILIDADES</h2>
             </div>

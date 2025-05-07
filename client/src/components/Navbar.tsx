@@ -8,9 +8,9 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     const sections = [
-        { name: "Sobre mí",    href: "About" },
-        { name: "Habilidades", href: "Habilidades" },
-        { name: "Proyectos",   href: "Projects" },
+        { name: "Sobre mí",    href: 'About' },
+        { name: "Habilidades", href: 'Habilidades' },
+        { name: "Proyectos",   href: 'Projects' },
     ];
 
     return (

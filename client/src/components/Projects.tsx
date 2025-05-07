@@ -2,7 +2,7 @@ import ProjectCard from "@/components/ProjectCard";
 
 function Projects(){
     return(
-        <div id="Projects" className="w-full bg-stone-950  text-white py-16 px-4  flex flex-col items-center justify-center text-center">
+        <div id='Projects' className="w-full bg-stone-950  text-white py-16 px-4  flex flex-col items-center justify-center text-center">
             <div>
                 <h2 className="text-4xl md:text-5xl font-bold text-center "> PROYECTOS </h2>
             </div>

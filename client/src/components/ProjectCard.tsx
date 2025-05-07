@@ -1,7 +1,13 @@
-import {Code, ExternalLink} from "lucide-react";
+import {Code} from "lucide-react";
 
-// @ts-ignore
-function ProjectCard({ name, description, codeLink, image }) {
+interface ProjectCardProps {
+    name: string;
+    description: string;
+    codeLink: string;
+    image: string;
+}
+
+function ProjectCard({ name, description, codeLink, image }: ProjectCardProps) {
     return (
         <div className="bg-neutral-900 rounded-xl overflow-hidden max-w-lg">
             <div className="w-full h-64 overflow-hidden bg-neutral-800">
