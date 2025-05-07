@@ -9,12 +9,12 @@ export default function Hero() {
             <h2 className="text-6xl md:text-6xl font-extrabold justify-center leading-tight mb-6">
                 <TextGenerateEffect
                     words="¡Hola! Soy"
-                    duration={0.5}
+                    duration={2}
                 />
                 <TextGenerateEffect
                     words="Diego Roque de Rosas"
                     className="text-green-500 text-6xl md:text-6xl font-extrabold"
-                    duration={0.8}
+                    duration={1.5}
                 />
             </h2>
 
